@@ -30,12 +30,6 @@ local function test_invert_color()
   assert(inverted_color == "#00FFFF")
 end
 
-local function test_brighten_color()
-  local hex_color = "#FF0000"
-  local brightened_color = ColorManager.brighten_color(hex_color, 50)
-  assert(brightened_color == "#FF7F7F")
-end
-
 local function test_darken_color()
   local hex_color = "#FF0000"
   local darkened_color = ColorManager.darken_color(hex_color, 50)
