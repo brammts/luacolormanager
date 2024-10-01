@@ -1,7 +1,5 @@
 # ColorManager Library
-==========================
-
-## Version: 1.0.0
+[![Тесты](https://github.com/brammts/luacolormanager/actions/workflows/test.yml/badge.svg)](https://github.com/brammts/luacolormanager/actions/workflows/test.yml)
 
 ## Description:
 The ColorManager library is a Lua library that provides a set of functions for working with colors in HEX and RGB formats. It allows you to convert between HEX and RGB, manipulate colors, and compare colors.
