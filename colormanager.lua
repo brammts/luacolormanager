@@ -84,6 +84,8 @@ function M.brighten_color(color, amount)
     return M.rgb_to_hex(brightened_red, brightened_green, brightened_blue)
 end
 
+-- Down color
+
 function M.darken_color(color, amount)
     if type(color) == "string" then
         color = M.hex_to_rgb(color)
